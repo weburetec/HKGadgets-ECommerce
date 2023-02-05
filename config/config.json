@@ -5,7 +5,7 @@
     "database": "livani_83zu",
     "host": "dpg-cffnln82i3mg6p9bpddg-a",
     "port": "5432",
-    "dialect": "postgres",
+    "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
