@@ -4,7 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev": "npm run dev",
     "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build -- prefix client"
     
   },
