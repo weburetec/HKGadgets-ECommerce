@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "npm run dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     
