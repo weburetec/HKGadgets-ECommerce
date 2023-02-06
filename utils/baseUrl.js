@@ -1,4 +1,4 @@
-const baseUrl = process.env.NODE_ENV === "production" 
+const baseUrl = process.env.NODE_ENV === "development" 
 ? 'https://hkgadgets.onrender.com' 
 : 'https://localhost:10000';
 
