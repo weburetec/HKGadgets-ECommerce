@@ -3,7 +3,7 @@
     "username": "hkdbadmin",
     "password": "LBSd7g5xP8pDFaEmQO0L15EzmxOeHdm7",
     "database": "livani_83zu",
-    "host": "dpg-cffnln82i3mg6p9bpddg-a",
+    "host": "dpg-cffnln82i3mg6p9bpddg-a.oregon-postgres.render.com",
     "port": "5432",
     "dialect": "postgres"
   },
@@ -11,7 +11,7 @@
     "username": "postgres",
     "password": null,
     "database": "livani_83zu",
-    "host": "dpg-cffnln82i3mg6p9bpddg-a",
+    "host": "dpg-cffnln82i3mg6p9bpddg-a.oregon-postgres.render.com",
     "port": "5432",
    "dialect": "postgres",
    "ssl":"true"
@@ -20,7 +20,7 @@
     "username": "hkdbadmin",
     "password": null,
     "database": "livani_83zu",
-    "host": "dpg-cffnln82i3mg6p9bpddg-a",
+    "host": "dpg-cffnln82i3mg6p9bpddg-a.oregon-postgres.render.com",
     "port": "5432",
     "dialect": "postgres",
     "ssl":"true"
