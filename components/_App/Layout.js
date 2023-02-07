@@ -17,28 +17,7 @@ const Layout = ({ children }) => {
 	return (
 		<>
 			<Head>
-				<title>HK Gadgets - One Stopp Shoppe</title>
-				<meta
-					name="description"
-					content="HK Gadgets - One Stopp Shoppe"
-				/>
-				<meta
-					name="og:title"
-					property="og:title"
-					content="HK Gadgets - One Stopp Shoppe"
-				></meta>
-				<meta
-					name="twitter:card"
-					content="HK Gadgets - One Stopp Shoppe"
-				></meta>
-				<link
-					rel="canonical"
-					href="https://livani-react.envytheme.com/"
-				></link>
-				<meta
-					property="og:image"
-					content="https://demaxin.s3.ap-south-1.amazonaws.com/cd19-2-1589216093113.jpg"
-				/>
+
 			</Head>
 
 			{loader ? "Loading" : children}
