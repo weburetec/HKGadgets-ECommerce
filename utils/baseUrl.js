@@ -1,5 +1,5 @@
 const baseUrl = process.env.NODE_ENV === "development" 
 ? 'https://hkgadgets.onrender.com' 
-: 'https://hkgadgets:10000';
+: 'https://localhost:3000';
 
 export default baseUrl;
