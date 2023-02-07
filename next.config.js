@@ -1,9 +1,14 @@
 const path = require("path");
 
 module.exports = {
-	future: {
-    		webpack5: true,
-  	},
+	webpack: (config) => {
+		const webpack = require('webpack')
+		const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+		config.plugins = config.plugins || []
+		config.plugins.push(new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /en/))
+		config.plugins.push(new BundleAnalyzerPlugin())
+		return config
+	},
 	sassOptions: {
 		includePaths: [path.join(__dirname, "styles")],
 	},
