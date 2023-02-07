@@ -78,7 +78,7 @@ const Navbar = ({ user, store }) => {
 				<div className="main-nav">
 					<div className="container">
 						<nav className="navbar navbar-expand-lg navbar-light">
-							<Link href="/">
+							<Link href="/electronics">
 								<a className="navbar-brand">
 									<img
 										src="../../images/logo.png"
@@ -108,129 +108,7 @@ const Navbar = ({ user, store }) => {
 							>
 								<ul className="navbar-nav">
 									<li className="nav-item">
-										<Link href="#">
-											<a className="nav-link">
-												Home{" "}
-												<i className="bx bx-chevron-down"></i>
-											</a>
-										</Link>
-
-										<ul className="dropdown-menu">
-											<li className="nav-item">
-												<Link
-													href="/"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Fashion Style One
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/fashion-style-two"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Fashion Style Two
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/fashion-style-three"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Fashion Style Three
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/fashion-style-four"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Fashion Style Four
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/fashion-style-five"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Fashion Style Five
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/covid19"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Covid-19 Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/grocery"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Grocery Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/electronics"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Electronics Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/furniture"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Furniture Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
-
-											<li className="nav-item">
-												<Link
-													href="/jewelry"
-													activeClassName="active"
-												>
-													<a className="nav-link">
-														Jewelry Store
-														<span>New</span>
-													</a>
-												</Link>
-											</li>
-										</ul>
+										<Link href="/electronics"></Link>
 									</li>
 
 									<li className="nav-item megamenu">
