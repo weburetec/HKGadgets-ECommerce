@@ -40,7 +40,8 @@
     "stripe": "^8.174.0",
     "uuid": "^8.3.2",
     "uuid-validate": "0.0.3",
-    "validator": "^13.6.0"
+    "validator": "^13.6.0",
+    "webpack-bundle-analyzer": "^4.7.0"
   },
   "devDependencies": {
     "sequelize-cli": "^6.2.0"
