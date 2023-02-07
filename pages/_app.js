@@ -39,9 +39,7 @@ export default function App({ Component, pageProps }) {
 
 	return (
 		<>
-			<Head>
-
-			</Head>
+			<Head> 			</Head>
 
 			<ToastProvider
 				placement="bottom-center"
