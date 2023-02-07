@@ -1,9 +1,7 @@
 const path = require("path");
 
 module.exports = {
-	webpack: (config) => {
-		const webpack = require('webpack')
-	},
+	webpack5: true,
 	sassOptions: {
 		includePaths: [path.join(__dirname, "styles")],
 	},
