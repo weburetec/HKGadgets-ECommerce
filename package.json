@@ -1,7 +1,4 @@
 {
-  "name": "HK Gadgets ECommerce Portal",
-  "homepage":"https://hkgadgets.onrender.com/electronics/",
-  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next",
