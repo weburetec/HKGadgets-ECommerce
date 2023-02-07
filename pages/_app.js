@@ -40,11 +40,7 @@ export default function App({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>HK Gadgets - One Stopp Shoppe</title>
-				<meta
-					name="viewport"
-					content="initial-scale=1.0, width=device-width"
-				/>
+
 			</Head>
 
 			<ToastProvider
