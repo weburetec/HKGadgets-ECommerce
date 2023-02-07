@@ -1,13 +1,7 @@
 const path = require("path");
-const webpack = require("webpack");
-console.log(webpack.version);
 
 module.exports = {
-	 webpack: function (config, options) {
-    		console.log(options.webpack.version); // 4.44.1
-   		config.experiments = {};
-    		return config;
-  	},
+	webpack5: false,
 	sassOptions: {
 		includePaths: [path.join(__dirname, "styles")],
 	},
